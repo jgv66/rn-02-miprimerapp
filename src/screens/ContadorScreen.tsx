@@ -1,23 +1,23 @@
 
 
 import React, { useState } from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { Fab } from '../components/Fab';
 
 const ContadorScreen = () => {
 
-  console.log(222);
+//   console.log(222);
 
   const [contador, setContador] = useState(10);
 
-  console.log(333);
+//   console.log(333);
 
   return (
 
     <View style={styles.container}>
 
         <Text style={styles.title}>
-            Contador: {contador}
+            Contador: { contador }
         </Text>
 
         <Fab

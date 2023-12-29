@@ -16,7 +16,7 @@ export const App = () => {
   //           Contador: {contador}
   //       </Text>
 
-  //       <TouchableOpacity style={styles.fabLocationBL}  onPress={() => setContador( contador - 1) }>
+  //       <TouchableOpacity style={styles.fabLocationBL} onPress={() => setContador( contador - 1) }>
   //           <View style={styles.fab }>
   //               <Text style={styles.fabText }>-1</Text>
   //           </View>
